@@ -5,8 +5,9 @@
 .fbx.home #rightCol,
 #pagelet_welcome_box,
 #pagelet_bookmark_nav,
-#navHeader { 
-  display: none !important; 
+#navHeader, #navHome,
+.headerTinymanName {
+  display: none !important;
 }
 
 /* News feed
@@ -15,7 +16,7 @@
 /* Skinny up the News feed after removing all the ads */
 .fbx.home #globalContainer {
   left: -96px; /* Places the side nav in the left margin. */
-  width: 729px;
+  width: 731px;
 }
 /* Make the news feed stories span the full width of the container */
 .homeWiderContent .uiStreamStory,
@@ -28,11 +29,47 @@
 
 /* Shortening the top bar to work with the single column layout. Overly specific use of ids to override FB's CSS. */
 .fbx.home #blueBar #pageHead {
-  width: 545px;
+  width: 550px;
 }
 .fbx.home #navSearch {
   width: 230px;
 }
 .fbx.home #navSearch .uiSearchInput input {
   width: 195px;
+}
+
+/* Messages
+================================================== */
+
+#rightCol {
+  display: none !important;
+}
+
+#pagelet_web_messenger {
+  margin-left: 175px !important;
+}
+
+._6jw {
+  /*visibility: hidden;*/
+  margin-left: -1px;
+  background: white;
+}
+._6jw ul {
+  visibility: hidden;
+}
+  
+._3j5 {
+  display: none;
+}
+
+#wmMasterViewThreadlist, .pvs {
+  padding: 0;
+}
+  
+._l0, ._l2, ._l3 {
+  display: none;
+}
+
+.wmMasterView, ._4z0 {
+  width: 50px !important;
 }
