@@ -30,6 +30,11 @@
 .fbx.home #blueBar #pageHead {
   width: 545px;
 }
+.fbx.home #headNav .rfloat {
+  position: absolute;
+  right: 0;
+  top: 4px;
+}
 .fbx.home #navSearch {
   width: 230px;
 }
