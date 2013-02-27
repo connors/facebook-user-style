@@ -37,3 +37,39 @@
 .fbx.home #navSearch .uiSearchInput input {
   width: 195px;
 }
+
+/* Messages
+================================================== */
+
+#rightCol {
+  display: none !important;
+}
+
+#pagelet_web_messenger {
+  margin-left: 175px !important;
+}
+
+._6jw {
+  /*visibility: hidden;*/
+  margin-left: -1px;
+  background: white;
+}
+._6jw ul {
+  visibility: hidden;
+}
+  
+._3j5 {
+  display: none;
+}
+
+#wmMasterViewThreadlist, .pvs {
+  padding: 0;
+}
+  
+._l0, ._l2, ._l3 {
+  display: none;
+}
+
+.wmMasterView, ._4z0 {
+  width: 50px !important;
+}
