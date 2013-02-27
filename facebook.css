@@ -4,9 +4,14 @@
 /* Hide all the things! */
 .fbx.home #rightCol,
 #pagelet_welcome_box,
-#pagelet_bookmark_nav,
-#navHeader { 
-  display: none !important; 
+#listsNav,
+#pagesNav,
+#appsNav,
+#developerNav,
+#interestsNav,
+#navHeader, #navHome,
+.headerTinymanName {
+  display: none !important;
 }
 
 /* News feed
@@ -15,7 +20,7 @@
 /* Skinny up the News feed after removing all the ads */
 .fbx.home #globalContainer {
   left: -96px; /* Places the side nav in the left margin. */
-  width: 729px;
+  width: 751px;
 }
 /* Make the news feed stories span the full width of the container */
 .homeWiderContent .uiStreamStory,
@@ -28,11 +33,22 @@
 
 /* Shortening the top bar to work with the single column layout. Overly specific use of ids to override FB's CSS. */
 .fbx.home #blueBar #pageHead {
-  width: 545px;
+  width: 550px;
 }
 .fbx.home #navSearch {
   width: 230px;
 }
 .fbx.home #navSearch .uiSearchInput input {
   width: 195px;
+}
+
+/* To Handle Geoups and other things maybe?
+================================================== */
+
+.groupJumpLayout {
+  padding-top: 10px !important;
+}
+
+#headerArea {
+  display: none !important;
 }
