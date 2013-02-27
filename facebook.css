@@ -41,3 +41,9 @@
 .fbx.home #navSearch .uiSearchInput input {
   width: 195px;
 }
+
+/* Headers
+================================================= */
+#headerArea {
+  width: 509px !important;
+}
