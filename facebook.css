@@ -20,7 +20,7 @@
 /* Skinny up the News feed after removing all the ads */
 .fbx.home #globalContainer {
   left: -96px; /* Places the side nav in the left margin. */
-  width: 731px;
+  width: 751px;
 }
 /* Make the news feed stories span the full width of the container */
 .homeWiderContent .uiStreamStory,
@@ -42,8 +42,13 @@
   width: 195px;
 }
 
-/* Headers
-================================================= */
+/* To Handle Geoups and other things maybe?
+================================================== */
+
+.groupJumpLayout {
+  padding-top: 10px !important;
+}
+
 #headerArea {
-  width: 509px !important;
+  display: none !important;
 }
