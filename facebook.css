@@ -4,7 +4,11 @@
 /* Hide all the things! */
 .fbx.home #rightCol,
 #pagelet_welcome_box,
-#pagelet_bookmark_nav,
+#listsNav,
+#pagesNav,
+#appsNav,
+#developerNav,
+#interestsNav,
 #navHeader, #navHome,
 .headerTinymanName {
   display: none !important;
