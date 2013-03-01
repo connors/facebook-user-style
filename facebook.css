@@ -20,9 +20,8 @@
   width: 731px;
 }
 /* Make the news feed stories span the full width of the container */
-.homeWiderContent .uiStreamStory,
-.hasExpandedComposer .uiStream .uiStreamHeader {
-  margin-right: -18px;
+.uiStream  {
+  margin-right: -20px;
 }
 
 /* Top bar (open graph not supported )
@@ -37,4 +36,17 @@
 }
 .fbx.home #navSearch .uiSearchInput input {
   width: 195px;
+}
+
+/* Groups
+================================================== */
+
+.hasLeftCol #headerArea { 
+	width: 509px; /* Brings the group header in to be the same width as the main column. */
+}
+.groupJumpLayout .groupsCoverPhoto {
+	overflow: hidden; /* hides photos that overflow in the smaller header. */
+}
+.fbGroupsStream  {
+  margin-right: -28px; /* Extends the divider lines the full width of the stream. */
 }
