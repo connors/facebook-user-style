@@ -5,7 +5,8 @@
 .fbx.home #rightCol,
 #pagelet_welcome_box,
 #pagelet_bookmark_nav,
-#navHeader, #navHome,
+#navHeader,
+#navHome,
 .headerTinymanName {
   display: none !important;
 }
