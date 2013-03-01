@@ -50,3 +50,6 @@
 .fbGroupsStream  {
   margin-right: -28px; /* Extends the divider lines the full width of the stream. */
 }
+.groupsJumpBarTop .rfloat {
+  visibility: hidden;
+}
