@@ -50,3 +50,9 @@
 .fbGroupsStream  {
   margin-right: -28px; /* Extends the divider lines the full width of the stream. */
 }
+.groupsJumpBarTop .rfloat {
+  visibility: hidden;
+}
+.groupJumpLayout #fbProfileCover .coverWrap {
+  height: 172px !important; /* 551 / 801 = .687 | 250 * .687 = 172 */
+}
