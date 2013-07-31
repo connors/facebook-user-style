@@ -16,7 +16,7 @@
 
 /* Skinny up the News feed after removing all the ads */
 .fbx.home #globalContainer {
-  left: -96px; /* Places the side nav in the left margin. */
+  left: -88px; /* Places the side nav in the left margin. */
   width: 731px;
 }
 /* Make the news feed stories span the full width of the container */
