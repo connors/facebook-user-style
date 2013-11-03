@@ -1,4 +1,4 @@
-# Facebook.com user style
+# [Facebook.com user style](http://connors.github.io/simple-user-styles/#facebook)
 
 Over the years the news feed has become a bit too cluttered for my taste. This user style removes some of that clutter.
 
